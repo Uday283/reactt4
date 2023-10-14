@@ -1,5 +1,5 @@
-import axios from 'axios';
 import {useState,useEffect,Component} from 'react';
+import axios from 'axios';
 import './style.css';
 const Details=()=>{
   const[users,setUsers]=useState([]);
